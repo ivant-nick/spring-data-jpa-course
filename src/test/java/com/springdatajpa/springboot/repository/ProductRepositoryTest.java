@@ -14,6 +14,12 @@ class ProductRepositoryTest {
     @Autowired
     private ProductRepository productRepository;
 
+    /*
+    * Test should run manually and sequentially one after the other to avoid errors.
+    * After running the test, check the database to see the changes.
+    * Drop database before start again from scratch.
+    * */
+
     @Test
     void saveMethod() {
         //create a product
